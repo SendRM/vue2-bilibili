@@ -1,14 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <home />
+    <router-view :key="$route.fullPath" />
   </div>
 </template>
 
+<script>
+import Home from "./views/Home";
+import MainContent from "./views/MainContent";
+export default {
+  created() {
+    this.$router.push(this.$route.path);
+  },
+  components: {
+    Home,
+    MainContent,
+  },
+};
+</script>
+
 <style lang="less">
+@import "./assets/css/base.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
