@@ -12,4 +12,4 @@ vue2 + vue-router + vue-cli+ echarts + node.js+ express+ python
 
 ## 效果图
 
-https://github.com/SendRM/uploadPic/blob/main/WPS%E5%9B%BE%E7%89%87.png
+![](https://github.com/SendRM/uploadPic/blob/main/12.png)
