@@ -9,7 +9,7 @@
 
 ## 技术栈
 
-vue2 + vue-router + vue-cli+ echarts + node.js+ express+ python
+vue2 + vue-router + vue-cli+ echarts + element-ui + node.js+ express+ python
 
 ## 效果图
 
